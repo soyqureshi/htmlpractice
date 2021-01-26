@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<img src="Welcome Scan.jpg" usemap="#universe">
+<map name="universe">
+    <area shape="ract" 
+    coords="410,110,600,260" 
+    href="ff.html"
+    title="flowerlink">
+</map>
+<p>My first paragraph.</p>
+
+</body>
+</html>
