@@ -1,141 +1,257 @@
 <!DOCTYPE html>
 <html>
-<head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta name="veiwpoint" content="width=device-width,initial-scale-1">
+        <title>My First HTML</title>
 
-      <title>MAHIM</title>
-      
-      <style>
-      
-      #tabledraw { background-color : yellow;
-                   border : 2px solid grey}
+        <style>
+            #para {background-color: chartreuse;
+                fill-opacity: unset;
+                   
+            }
+       
+                       
+
+        </style>    
+    </head>
+
+    <body>
+        <pre>
+        <h1>HTML Tags</h1><hr>
+           <h2>Heading 1,2,3,4,5,6</h2>
+           <p>Paragraph</p>
+           <pre>Paragraph as its written</pre>
+           <i>making text italic</i>
+           <br>Break
+           <mark>highlighting text</mark>
+           <small>making a character small in font</small>
+           <strong>making text bold but for strong language</strong>
+           <em>emphasis on text</em>
+           <b>making text bold</b>
+           <del>crossing a word</del>
+           <ins>inserted text, which will appear as underline</ins>
+           <sub>for math formulae, to denote the lower power for eg</sub>x<sub>4</sub>
+           <sup>for math formulae, to denote the higher power for eg</sup>x<sup>6</sup>
+           <q>qotation tag</q>
+           <blockquote>qotation taken from author and will appear as a seprate para</blockquote>
+           <blockquote cite="https://www.youtube.com/watch?v=QXPWs00RD3A&t=1030s">Citation taken from</blockquote>
+           <abbr title="World Health Organisation">WHO-for abbreviatiov</abbr>
+           <a href="https://www.youtube.com/watch?v=QXPWs00RD3A&t=1030s">Link the word to other source</a>
+           <a href="https://www.youtube.com/watch?v=QXPWs00RD3A&t=1030s" target="_blank">Open the link in a new tab</a>
+           <a href="https://www.youtube.com/watch?v=QXPWs00RD3A&t=1030s" target="_blank" title="Hussain Sir">When you hoover it will show title</a>
+           <a id="locallink">Local Link within a body</a>
+           <a href="mailto:shoaib.qsh@gmail.com">Link for an email</a>
+           <a href="mailto:shoaib.qsh@gmail.com?subject=how are you">Subject pre embedded in the link</a>
+           <img src="image/flyers-back - Copy.jpg">For inserting Image from the folder on the PC
+           <img src="image/flyers-back - Copy.jpg" atl="flyers">alt function for giving name of image
+           <img src="image/flyers-back - Copy.jpg" width="200" height="200">Giving width & height to Image
+           <marquee direction="right">Move the text or image</marquee>
+           <u>Underline</u>
+           <iframe src="https://en.wikipedia.org/wiki/Wikipedia" width="500">Display other website on your webpage</iframe><br>
+           <iframe src="https://khabar.ndtv.com/topic/ravish-kumar" width="500">Display other website on your webpage</iframe><br><br><br><br>
+           <audio controls>
+               <source src="amazing_ringtone.mp3" type="audio/mp3">
+           </audio>
+           <video autoplay width="500">
+               <source src="Yuzi Independence2.mp4" type="video/mp4">
+           </video>
+
+           
+        </pre> 
         
-      #nhood { background-color:rgb(235, 228, 228);                
-               width : 300px;
-               border : 5px double darkgrey; 
-               text-align: center; 
-               
-               float : right; 
-               }
-      
-      .nieghcolor { background-color : lightgrey; 
-                    border-top :1px solid black; 
-                    border-bottom :1px solid black;
-                    padding-top : 6px;
-                    padding-bottom : 6px}
-      
-      .grey {background-color:rgb(235, 228, 228); width :50%; 
-             height : 350px;                    
-             overflow : auto;
-             line-height: 2em;
-             border : 1px solid darkgrey;
-             padding : 10px;}
-             
-      .sans-serif {font-family:sans-serif; font-size:12px;}
-      
-      .lineheight { line-height: 1.5em; text-align: left}
-      
-      a {text-decoration: none}
-      
-      .spangrey {color : red;}
-      
-      a:hover {background-color : red}	
-      a:active {background-color : green}
-      a:focus {background-color : yellow}
-      
-      h1:hover {background-color : pink}
-      
-      
-      
-      </style>
-      
-</head>  
-<body>
-      
-      <div class="mhh"><h1>Mahim</h1></div>
-      
-      
-      <p class="sans-serif"><a href="https://en.wikipedia.org/wiki/Mahim#Schools_and_educational_institutions"><em>From Wikipedia, the free encyclopedia</em></a></p>
-      
-      <div id="nhood">
-      <h3>Mahim</h3>
-      <h4><span class="nieghcolor">Neighbourhood</h4>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mahim_bay_skyline.jpg/250px-Mahim_bay_skyline.jpg" alt="Neighbourhood"><br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mumbai_area_locator_map.svg/250px-Mumbai_area_locator_map.svg.png" alt="Map of Mumbai"><br>Map of Mumbai</div>
-     
-      <div id="fullpara">
-      <p class="lineheight"><strong>Mahim</strong> is a neighbourhood in <a href ="https://en.wikipedia.org/wiki/Mumbai">Mumbai</a>, India. The Mahim railway station is in the Mahim area, on the Mumbai suburban railway on the Western Railway line. Mahim is often considered as the heart of Mumbai. Mahim upholds the values of Indian culture and diversity. In fact one finds a temple, church, mosque and fire-temple existing within a few meters of each other.</p>
-          
-      <div class="grey"><h3>Contents</h3> 
-          <ol>
-              <li><a href="#his">History</a></li>
-              <li><a href="#geo">Geography</a></li>
-                  <ul>
-                      <li><a href="#sei">Schools and educational institutions</a></li>
-                      <li><a href="#mahim-bay">Mahim Bay</a></li>
-                      <li>Mahimchi Khadi (Mahim Creek)</li>
-                  </ul>
-              <li>Mahim Causeway</li>
-              <li>Mahim Fort</li>
-              <li>See Also</li>
-              <li>Referances</li>
-          </ol>
-          </div>
-      
-      <h2 id="his">History</h2>
-        
-         <a href="https://en.wikipedia.org/wiki/Mahim#/media/File:Seven_Islands_of_Bombay_en.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Seven_Islands_of_Bombay_en.svg/160px-Seven_Islands_of_Bombay_en.svg.png" alt="Mumbai Island" width="200"></a>
+        <p>
+        <h2><u>Ordered, Unordered & Description Lists</u></h2>   
+
+           <ul>Unordered list
+               <li>Number1</li>
+               <li>Number2</li>
+               <li>Number3</li>
+           </ul>
+
+           <ul style="list-style-type: square">Unordered list with styles
+              <li>Number1</li>
+                <ul style="list-style-type: circle">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+              <li>Number2</li>
+              <li>Number3</li>
+           </ul>
+           
+           <ol>Ordered list
+              <li>Number1</li>
+              <li>Number2</li>
+              <li>Number3</li>
+           </ol>
          
-         <p class="lineheight"><span class="spangrey">The name Mahim is derived from the ancient <em>Mahikavati</em> meaning "miraculous" in Sanskrit.</span> Other historical names for the area include <em>Mahimawati, Maijim, and Mejambu.</em>[1]<br>
+           <ol start="11"> Ordered list starting from a particular Number
+              <li>Number2</li>
+              <li>Number3</li>
+           </ol>
 
-Mahim was one of the seven islands that originally made up Mumbai. Mahim, or Mahikawati as it was known, was the capital of Raja Bhimdev, who reigned over the region in the 13th century. He built a palace and a court of justice in Prabhadevi, as well as the first Babulnath temple.<br>
+            
+           <ol type="A">Ordered list starting from A or "i"RomanNumbers or "1"Number
+              <li>Number1</li>
+              <li>Number2</li>
+              <li>Number3</li>
+           </ol>
+        
+           <ol type="A">Ordered List under list
+              <li>Number1</li>
+                <ol type="1">
+                    <li>One</li>
+                    <li>Two</li>
+                      <ol type="i">
+                          <li>Carrots</li>
+                          <li>Onions</li>
+                          <li>Lemons</li>
+                      </ol>
+                    <li>Three</li>
+                </ol>
+              <li>Number2</li>
+              <li>Number3</li>
+           </ol>
+        </p>
+
+        <p>
+            <dl>Description List
+               <dt>Black Coffee</dt>
+                 <dd>Its a black hot drink</dd>
+               <dt>Milk</dt>
+                 <dd>Its a white cold drink</dd> 
+            </dl>
+        </p>
+
+        <p>
+        <h2><u>Tables</u></h2>
+
+        <table border="1px" cellpadding="10px" cellspacing="0">
+            <caption>Year 2020</caption>   
+            
+            
+            <tr>
+                <th colspan="6" style="background-color:red">Year Component</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Year of 2020</th>
+                <th rowspan="2">Months</th>
+                <th rowspan="2">Days</th>
+                <th colspan="2">Week</th>
+                <th rowspan="2">Hour</th>
+            </tr>
+            <tr>
+                
+                <td>Week1</td>
+                <td>Week2</td>
+               
+                
+            </tr>
+            <tr>
+                <td>Jan</td>
+                <td>31</td>
+                <td>4</td>
+                <td>4</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>28</td>
+                <td>3</td>
+                <td>4</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>30</td>
+                <td>4</td>
+                <td>4</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>30</td>
+                <td>4</td>
+                <td>4</td>
+                <td>24</td>
+            </tr>
+            
+            
+        </table>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <p>
+        <h3>Table within table</h3>
+        <table border="1px" cellpadding="10px" cellspacing="0">
+            
+            <caption>Year 2020</caption>
+            <thead>
+                <tr>
+                    <th colspan="4">Year Component</th>
+                </tr>
+                <tr>
+                    <th>Months</th>
+                    <th>Days</th>
+                    <th>
+                        <table border="1px" cellpadding="10px" cellspacing="0">
+                            <tr>
+                                <td colspan="2">Weaks</td>
+                            </tr>
+                            <tr>
+                                <td>Weak1</td>
+                                <td>Weak2</td>
+                            </tr>
+                            
+                        </table>
+                    </th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+
+            </tbody>
 
 
-Dargah of Mahimi in Mahim
-In 1343, this island was possessed by the Sultanate of Gujarat. It was in their reign that the old Mahim mosque was built. A dargah of Makhtum Fakir Ali Paru was built here in 1431.<br>
+        </table>
 
-In 1543, the Portuguese captured the islands of Mumbai. In 1662, these islands were given to the English King, King Charles II, as a part of the wedding dowry for the Portuguese princess, Catherine of Braganza. After British acquired Mumbai, they built the Mahim Fort here to protect themselves from the Marathas. The fort today stands in ruins.<br>
+        </p>
 
-The causeway connecting Mahim and Bandra (corrupted from "Bunder" meaning port in Persian) was completed in 1845 at a cost of Rs. 1,57,000 donated entirely by Lady Avabai Jamsetjee Jeejeebhoy, wife of the first baronet Sir Jamsetjee Jeejebhoy with a stipulation that no toll would be charged to citizens for its use by the government.<br>
+        <p><a href="#locallink">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. 
+              In ac urna at ante lacinia imperdiet vitae quis ligula. In sit amet tincidunt felis. Duis rhoncus bibendum accumsan. 
+              Praesent nulla augue, rhoncus eu lorem a, viverra sollicitudin massa. Integer gravida suscipit interdum. 
+              <span id="para">Vestibulum ante ipsum primis in faucibus</span> orci luctus et ultrices posuere cubilia curae; 
+              In sit amet placerat leo, in rutrum arcu. In leo tellus, faucibus eget finibus sed, fringilla vitae est. 
+              Phasellus at arcu sagittis, dapibus sapien nec, condimentum leo. Phasellus gravida eleifend ex nec pellentesque.
+        </p>
 
-In 1847, a small group of Scottish missionaries decided to start a new school, now one of the most high-profile schools in Mumbai — the Bombay Scottish School.<br></p>
+        <p>Curabitur condimentum luctus enim eget rutrum. Phasellus vitae elit dui. Curabitur egestas congue nulla eu lacinia. 
+              Pellentesque sagittis odio sed felis dapibus, id iaculis est lobortis. Vivamus vitae lacus et massa sagittis scelerisque. 
+              Duis rhoncus, lectus a lacinia ultrices, lacus ipsum efficitur sem, et imperdiet dolor massa dapibus nunc. 
+              Nulla efficitur rhoncus sem. Morbi tellus arcu, tincidunt ut imperdiet vel, aliquam ut nulla. Morbi ut pharetra ipsum. 
+              Donec ante lorem, bibendum ac dictum vitae, efficitur a enim. Donec tempor nunc id arcu accumsan, in venenatis ipsum commodo.
+        </p>
 
-      <h2 id="geo">Geography</h2>
-      <p>Mahim is surrounded by Dharavi, Dadar and Bandra on the north and the Arabian Sea on the west.</p>
-      
-      <h3 id="sei"><p>Schools and educational institutions</p></h3>
-      <p class="lineheight">Mahim has a number of schools and educational institutions. Some of the well-known schools are Bombay Scottish School, Mahim, Canossa Convent High School, k.J khilnani High School, Victoria High School, Saraswati Mandir High School, Lokmanya Vidyamandir, Billa Bong school and St Michael High School). Reputed colleges and professional educational institutes such as D. G. Ruparel College of Arts, Science and Commerce and St. Xavier's Technical Institute are also in Mahim.</p>
-      
-      <h3 id="mahim-bay"><p>Mahim Bay</p></h3>
-      <p class="lineheight">Mahim Bay is a large bay, part of the Arabian Sea in Mumbai, India. The southern end is Worli, the northern end is Bandra Reclamation and Mahim is in the centre. The bay was named after the islands of Mahim and Salsette were merged in the early 19th century. The Mithi River drains into Mahim Creek.<br>
 
-During the colonial era, the Portuguese built a watchtower called Castella de Aguada on the northern side. Later, the British built the Worli Fort to the south and Mahim Fort near the creek to defend the seven islands of Bombay against attacks by the Portuguese and the Marathas. The Bandra-Worli Sealink crosses Mahim Bay.</p> </div>
-              
 
-<div id="tabledraw">
-<table>
-   <thead>
-      <tr>
-        <th>Mahim</th>
-        <th>Neighbourhood</th>
-        <th>Mumbai</th>
-      </tr>
-      </thead>
-      <body>
-         <tr>
-            <td>Hi</td>
-</div>      
-      
+          
+
+       </body>    
 
 
 
 
 
 
+         
 
 
 
 
-</body>
+
+    </body>
 </html>
